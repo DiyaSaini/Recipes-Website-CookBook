@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color: rgba(144, 185, 212, 0.773)">
+    <img src="https://th.bing.com/th/id/OIP.rSrZ1Bu7Cd2AjDmONZ0ZpgAAAA?rs=1&pid=ImgDetMain" height="142px" width="140px" style="float:left"/>
+    <header>
+      <h1 align="center">CookBook Recipes </h1>
+      <h5 align="right" style="white-space:pre; color:rgb(255, 255, 255)"><a href="index.html" style="text-decoration: none; color:azure">Home      </a><a href="aboutus.html" style="text-decoration: none; color:azure">About us      </a><a href="contactus.html" style="text-decoration: none; color:azure">Contact us      </a>More RECIPES!</h5>
+    </header>
+    <div class="contact-section">
+        <h2 align="left" style="padding-right:100px; padding-left:100px; color:black">CONTACT US</h2>
+        <form action="#" method="POST" onsubmit="return sendMessage()" style="padding-right:100px; padding-left:100px;">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" style="width: 300px;"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" style="width: 300px;"><br>
+            <label for="whatsapp">WhatsApp Number:</label><br>
+            <input type="tel" id="whatsapp" name="whatsapp" style="width: 300px;"><br>
+            <label for="query">Query:</label><br>
+            <textarea id="query" name="query" rows="4" cols="50" style="width: 300px;"></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+    <footer>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@cookbookrecipes.com</p>
+            <p>Phone: +91 9720657580</p>
+            <p>Address: Chennai, India</p>
+        </div>
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <p><a href="https://www.facebook.com/cookbookrecipes" target="_blank">Facebook</a></p>
+            <p><a href="https://twitter.com/cookbookrecipes" target="_blank">Twitter</a></p>
+            <p><a href="https://www.instagram.com/cookbookrecipes" target="_blank">Instagram</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function sendMessage() {
+            alert("Thank you, your message has been received");
+            return false; // Prevent the form from actually submitting
+        }
+    </script>
+</body>
+</html>
